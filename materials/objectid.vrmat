@@ -1,0 +1,947 @@
+1<vrmat>
+ <Asset renderer="vray" url="/objectid/VRay Mtl" type="BRDF" layout="">
+  <plugin>
+   <vrayplugin name="BRDFVRayMtl" type="BRDF" version="21">
+    <parameters>
+     <parameter handler="default" label="bump_amount_res_mult" name="bump_amount_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_amount_tex_mult" name="bump_amount_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_ior_tex_mult" name="coat_ior_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="lpe_label" name="lpe_label" listType="none" type="string">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="anisotropy" name="anisotropy" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_rotation_float" name="anisotropy_rotation_float" listType="none" type="float" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_color_tex_mult" name="coat_color_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_axis" name="anisotropy_axis" listType="none" type="integer">
+      <value>2</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_on" name="thin_film_on" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_bump_lock" name="coat_bump_lock" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_tex_mult" name="thin_film_thickness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_ior_tex_mult" name="refract_ior_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fog_color_tex_tex" name="fog_color_tex_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="coat_bump_amount_tex" name="coat_bump_amount_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="anisotropy_res_mult" name="anisotropy_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_derivation" name="anisotropy_derivation" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_amount_float" name="coat_amount_float" listType="none" type="float" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="bump_map" name="bump_map" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="fog_depth" name="fog_depth" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_rotation_tex_on" name="anisotropy_rotation_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="sheen_glossiness" name="sheen_glossiness" listType="none" type="float">
+      <value>0.8</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_rotation" name="anisotropy_rotation" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="fog_mult" name="fog_mult" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_float" name="anisotropy_float" listType="none" type="float" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_ior_res_mult" name="coat_ior_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="gtr_energy_compensation" name="gtr_energy_compensation" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_rotation_tex_mult" name="anisotropy_rotation_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_rotation_res_mult" name="anisotropy_rotation_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="option_use_irradiance_map" name="option_use_irradiance_map" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_tex_on" name="anisotropy_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_type" name="bump_type" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_color_tex" name="coat_color_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="anisotropy_rotation_tex" name="anisotropy_rotation_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="coat_amount" name="coat_amount" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_glossiness" name="coat_glossiness" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="opacity_tex_on" name="opacity_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_tex" name="anisotropy_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="reflect_tex_on" name="reflect_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_tex_mult" name="anisotropy_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_affect_alpha" name="refract_affect_alpha" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="option_energy_mode" name="option_energy_mode" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_uvwgen" name="anisotropy_uvwgen" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="coat_bump_amount" name="coat_bump_amount" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="gtr_gamma" name="gtr_gamma" listType="none" type="float">
+      <value>2</value>
+     </parameter>
+     <parameter handler="default" label="coat_glossiness_tex" name="coat_glossiness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="option_fix_dark_edges" name="option_fix_dark_edges" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="anisotropy_uvwgen_channel" name="anisotropy_uvwgen_channel" listType="none" type="integer" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="brdf_type" name="brdf_type" listType="none" type="integer">
+      <value>4</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior_float" name="fresnel_ior_float" listType="none" type="float" isUserData="1">
+      <value>1.6</value>
+     </parameter>
+     <parameter handler="default" label="coat_color_color" name="coat_color_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="bump_amount" name="bump_amount" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_amount_float" name="bump_amount_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_map_tex" name="bump_map_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_tex_on" name="thin_film_thickness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_amount_tex" name="bump_amount_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="coat_bump_amount_tex_on" name="coat_bump_amount_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="diffuse_tex_on" name="diffuse_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_amount_tex_on" name="bump_amount_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_max" name="thin_film_thickness_max" listType="none" type="float">
+      <value>400</value>
+     </parameter>
+     <parameter handler="default" label="opacity_tex_mult" name="opacity_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="new_gtr_anisotropy" name="new_gtr_anisotropy" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="bump_map_color" name="bump_map_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="coat_color_tex_on" name="coat_color_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refract_color" name="refract_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="bump_map_res_mult" name="bump_map_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_map_tex_mult" name="bump_map_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_color_res_mult" name="coat_color_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_surfaceLighting" name="translucency_surfaceLighting" listType="none" type="integer">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="channels" name="channels" listType="plugin" type="list">
+      <value>
+       <list/>
+      </value>
+     </parameter>
+     <parameter handler="default" label="refract_res_mult" name="refract_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bump_map_tex_on" name="bump_map_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="translucency" name="translucency" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_ior" name="coat_ior" listType="none" type="float">
+      <value>1.6</value>
+     </parameter>
+     <parameter handler="default" label="coat_amount_res_mult" name="coat_amount_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refl_imap_samples" name="refl_imap_samples" listType="none" type="integer">
+      <value>20</value>
+     </parameter>
+     <parameter handler="default" label="coat_amount_tex" name="coat_amount_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_min" name="thin_film_thickness_min" listType="none" type="float">
+      <value>250</value>
+     </parameter>
+     <parameter handler="default" label="fog_unit_scale_on" name="fog_unit_scale_on" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fog_color_tex_res_mult" name="fog_color_tex_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_amount_tex_mult" name="coat_amount_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness_tex_on" name="hilight_glossiness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_amount_tex_on" name="coat_amount_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_bump_amount_float" name="coat_bump_amount_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_bump_amount_res_mult" name="coat_bump_amount_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_ior_float" name="coat_ior_float" listType="none" type="float" isUserData="1">
+      <value>1.6</value>
+     </parameter>
+     <parameter handler="default" label="coat_bump_amount_tex_mult" name="coat_bump_amount_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_bump_map" name="coat_bump_map" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="reflect_glossiness_tex_mult" name="reflect_glossiness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_bump_type" name="coat_bump_type" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_color" name="coat_color" listType="none" type="color">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="coat_glossiness_float" name="coat_glossiness_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_affect_shadows" name="refract_affect_shadows" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_glossiness_res_mult" name="coat_glossiness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_ior_tex" name="coat_ior_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="volume" name="volume" listType="none" type="plugin">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="use_environment_override" name="use_environment_override" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_glossiness_tex_mult" name="coat_glossiness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="coat_glossiness_tex_on" name="coat_glossiness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refract_tex_on" name="refract_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="coat_ior_tex_on" name="coat_ior_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="compensate_camera_exposure" name="compensate_camera_exposure" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="diffuse" name="diffuse" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="sheen_glossiness_tex_on" name="sheen_glossiness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="diffuse_color" name="diffuse_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="sheen_color_tex_mult" name="sheen_color_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fog_bias" name="fog_bias" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="diffuse_res_mult" name="diffuse_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="diffuse_tex" name="diffuse_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="diffuse_tex_mult" name="diffuse_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="dispersion" name="dispersion" listType="none" type="float">
+      <value>50</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_ior_res_mult" name="thin_film_ior_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="dispersion_on" name="dispersion_on" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="metalness_tex_on" name="metalness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="environment_override" name="environment_override" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="environment_override_color" name="environment_override_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="environment_override_res_mult" name="environment_override_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="environment_override_tex" name="environment_override_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="environment_override_tex_mult" name="environment_override_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="environment_override_tex_on" name="environment_override_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="environment_priority" name="environment_priority" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="fog_color" name="fog_color" listType="none" type="color">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="fog_color_tex" name="fog_color_tex" listType="none" type="color">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="fresnel" name="fresnel" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fog_color_tex_color" name="fog_color_tex_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="fog_color_tex_tex_mult" name="fog_color_tex_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fog_color_tex_tex_on" name="fog_color_tex_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior" name="fresnel_ior" listType="none" type="float">
+      <value>1.6</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior_lock" name="fresnel_ior_lock" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior_res_mult" name="fresnel_ior_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior_tex" name="fresnel_ior_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="refract_depth" name="refract_depth" listType="none" type="integer">
+      <value>5</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior_tex_mult" name="fresnel_ior_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="fresnel_ior_tex_on" name="fresnel_ior_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness" name="hilight_glossiness" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect_glossiness_float" name="reflect_glossiness_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness_float" name="hilight_glossiness_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness_lock" name="hilight_glossiness_lock" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness_res_mult" name="hilight_glossiness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness_tex" name="hilight_glossiness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="hilight_glossiness_tex_mult" name="hilight_glossiness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="hilight_soften" name="hilight_soften" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="linear_workflow" name="linear_workflow" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="metalness" name="metalness" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="metalness_float" name="metalness_float" listType="none" type="float" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="metalness_res_mult" name="metalness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness" name="thin_film_thickness" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="metalness_tex" name="metalness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="self_illumination_tex" name="self_illumination_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="metalness_tex_mult" name="metalness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="opacity" name="opacity" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="opacity_color" name="opacity_color" listType="none" type="acolor">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+       <a>1</a>
+      </value>
+     </parameter>
+     <parameter handler="default" label="opacity_float" name="opacity_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="opacity_from_alpha_mode" name="opacity_from_alpha_mode" listType="none" type="integer" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="opacity_from_alpha_on" name="opacity_from_alpha_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="opacity_mode" name="opacity_mode" listType="none" type="integer">
+      <value>2</value>
+     </parameter>
+     <parameter handler="default" label="opacity_res_mult" name="opacity_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="opacity_source" name="opacity_source" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="opacity_tex" name="opacity_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="option_cutoff" name="option_cutoff" listType="none" type="float">
+      <value>0.001</value>
+     </parameter>
+     <parameter handler="default" label="option_double_sided" name="option_double_sided" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="option_glossy_fresnel" name="option_glossy_fresnel" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="option_glossy_rays_as_gi" name="option_glossy_rays_as_gi" listType="none" type="integer">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="option_reflect_on_back" name="option_reflect_on_back" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="option_use_roughness" name="option_use_roughness" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refl_imap_color_thresh" name="refl_imap_color_thresh" listType="none" type="float">
+      <value>0.25</value>
+     </parameter>
+     <parameter handler="default" label="refl_imap_max_rate" name="refl_imap_max_rate" listType="none" type="integer">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refl_imap_min_rate" name="refl_imap_min_rate" listType="none" type="integer">
+      <value>-1</value>
+     </parameter>
+     <parameter handler="default" label="refl_imap_norm_thresh" name="refl_imap_norm_thresh" listType="none" type="float">
+      <value>0.4</value>
+     </parameter>
+     <parameter handler="default" label="refl_interpolation_on" name="refl_interpolation_on" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="roughness_tex_on" name="roughness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect" name="reflect" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="reflect_affect_alpha" name="reflect_affect_alpha" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="reflect_color" name="reflect_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="reflect_depth" name="reflect_depth" listType="none" type="integer">
+      <value>5</value>
+     </parameter>
+     <parameter handler="default" label="reflect_dim_distance" name="reflect_dim_distance" listType="none" type="float">
+      <value>100</value>
+     </parameter>
+     <parameter handler="default" label="translucency_color_color" name="translucency_color_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="sheen_color_tex" name="sheen_color_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="refract_glossiness_tex_mult" name="refract_glossiness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect_dim_distance_falloff" name="reflect_dim_distance_falloff" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="reflect_dim_distance_on" name="reflect_dim_distance_on" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="reflect_exit_color" name="reflect_exit_color" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="reflect_glossiness" name="reflect_glossiness" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect_glossiness_res_mult" name="reflect_glossiness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_color_tex_on" name="translucency_color_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect_glossiness_tex" name="reflect_glossiness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="reflect_subdivs" name="reflect_subdivs" listType="none" type="integer">
+      <value>8</value>
+     </parameter>
+     <parameter handler="default" label="reflect_glossiness_tex_on" name="reflect_glossiness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="reflect_res_mult" name="reflect_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect_tex" name="reflect_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="reflect_tex_mult" name="reflect_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="reflect_trace" name="reflect_trace" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refr_imap_color_thresh" name="refr_imap_color_thresh" listType="none" type="float">
+      <value>0.25</value>
+     </parameter>
+     <parameter handler="default" label="refr_imap_max_rate" name="refr_imap_max_rate" listType="none" type="integer">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_color_res_mult" name="translucency_color_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="self_illumination_res_mult" name="self_illumination_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refr_imap_min_rate" name="refr_imap_min_rate" listType="none" type="integer">
+      <value>-1</value>
+     </parameter>
+     <parameter handler="default" label="refr_imap_norm_thresh" name="refr_imap_norm_thresh" listType="none" type="float">
+      <value>0.4</value>
+     </parameter>
+     <parameter handler="default" label="refr_imap_samples" name="refr_imap_samples" listType="none" type="integer">
+      <value>20</value>
+     </parameter>
+     <parameter handler="default" label="sheen_glossiness_tex_mult" name="sheen_glossiness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refr_interpolation_on" name="refr_interpolation_on" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refract" name="refract" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="refract_exit_color" name="refract_exit_color" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="refract_exit_color_on" name="refract_exit_color_on" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refract_glossiness" name="refract_glossiness" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_glossiness_float" name="refract_glossiness_float" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_glossiness_res_mult" name="refract_glossiness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_glossiness_tex" name="refract_glossiness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="refract_glossiness_tex_on" name="refract_glossiness_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_tex" name="thin_film_thickness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="refract_ior" name="refract_ior" listType="none" type="float">
+      <value>1.6</value>
+     </parameter>
+     <parameter handler="default" label="refract_ior_float" name="refract_ior_float" listType="none" type="float" isUserData="1">
+      <value>1.6</value>
+     </parameter>
+     <parameter handler="default" label="refract_ior_res_mult" name="refract_ior_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_ior_tex" name="refract_ior_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="refract_ior_tex_on" name="refract_ior_tex_on" listType="none" type="bool" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refract_subdivs" name="refract_subdivs" listType="none" type="integer">
+      <value>8</value>
+     </parameter>
+     <parameter handler="default" label="refract_tex" name="refract_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="refract_tex_mult" name="refract_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="refract_thin_walled" name="refract_thin_walled" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="refract_trace" name="refract_trace" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_color" name="translucency_color" listType="none" type="color">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="roughness" name="roughness" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="roughness_float" name="roughness_float" listType="none" type="float" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="roughness_model" name="roughness_model" listType="none" type="integer">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="roughness_res_mult" name="roughness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="roughness_tex" name="roughness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="roughness_tex_mult" name="roughness_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="self_illumination" name="self_illumination" listType="none" type="color">
+      <value>
+       <r>0.6581346</r>
+       <g>0.01331635</g>
+       <b>0.01331635</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="self_illumination_color" name="self_illumination_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0.6581346</r>
+       <g>0.01331635</g>
+       <b>0.01331635</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="self_illumination_gi" name="self_illumination_gi" listType="none" type="bool">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="self_illumination_tex_mult" name="self_illumination_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="self_illumination_tex_on" name="self_illumination_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="shader_channels" name="shader_channels" listType="none" type="integer" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="sheen_color" name="sheen_color" listType="none" type="color">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="sheen_color_color" name="sheen_color_color" listType="none" type="color" isUserData="1">
+      <value>
+       <r>0</r>
+       <g>0</g>
+       <b>0</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="sheen_color_res_mult" name="sheen_color_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="sheen_color_tex_on" name="sheen_color_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="sheen_glossiness_float" name="sheen_glossiness_float" listType="none" type="float" isUserData="1">
+      <value>0.8</value>
+     </parameter>
+     <parameter handler="default" label="sheen_glossiness_res_mult" name="sheen_glossiness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="sheen_glossiness_tex" name="sheen_glossiness_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="texture_multiplier_mode" name="texture_multiplier_mode" listType="none" type="integer" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_ior" name="thin_film_ior" listType="none" type="float">
+      <value>1.47</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_ior_float" name="thin_film_ior_float" listType="none" type="float" isUserData="1">
+      <value>1.47</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_ior_tex" name="thin_film_ior_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="thin_film_ior_tex_mult" name="thin_film_ior_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_ior_tex_on" name="thin_film_ior_tex_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_float" name="thin_film_thickness_float" listType="none" type="float" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="translucency_thickness" name="translucency_thickness" listType="none" type="float">
+      <value>1000</value>
+     </parameter>
+     <parameter handler="default" label="thin_film_thickness_res_mult" name="thin_film_thickness_res_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_amount" name="translucency_amount" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_cache" name="translucency_cache" listType="none" type="integer" isUserData="1">
+      <value>3</value>
+     </parameter>
+     <parameter handler="default" label="translucency_color_tex" name="translucency_color_tex" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="translucency_color_tex_mult" name="translucency_color_tex_mult" listType="none" type="float" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_light_mult" name="translucency_light_mult" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="translucency_scatter_coeff" name="translucency_scatter_coeff" listType="none" type="float">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="translucency_scatter_dir" name="translucency_scatter_dir" listType="none" type="float">
+      <value>1</value>
+     </parameter>
+    </parameters>
+   </vrayplugin>
+  </plugin>
+ </Asset>
+ <Asset renderer="vray" url="/objectid" type="material" layout="">
+  <plugin>
+   <vrayplugin name="MtlSingleBRDF" type="material" version="21">
+    <parameters>
+     <parameter handler="default" label="allow_negative_colors" name="allow_negative_colors" listType="none" type="bool">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="bind_all_on" name="bind_all_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bind_texture_mode" name="bind_texture_mode" listType="none" type="integer" isUserData="1">
+      <value>0</value>
+     </parameter>
+     <parameter handler="default" label="bind_texture_on" name="bind_texture_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="viewport_texture" name="viewport_texture" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="bind_opacity_on" name="bind_opacity_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="bind_color_on" name="bind_color_on" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="brdf" name="brdf" listType="none" type="plugin">
+      <value>/objectid/VRay Mtl</value>
+     </parameter>
+     <parameter handler="default" label="bump" name="bump" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="filter" name="filter" listType="none" type="color">
+      <value>
+       <r>1</r>
+       <g>1</g>
+       <b>1</b>
+      </value>
+     </parameter>
+     <parameter handler="default" label="channels" name="channels" listType="plugin" type="list">
+      <value>
+       <list/>
+      </value>
+     </parameter>
+     <parameter handler="default" label="displacement" name="displacement" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="double_sided" name="double_sided" listType="none" type="integer">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="effected_by_mtl_override" name="effected_by_mtl_override" listType="none" type="bool" isUserData="1">
+      <value>1</value>
+     </parameter>
+     <parameter handler="default" label="materialID" name="materialID" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="renderStats" name="renderStats" listType="none" type="plugin" isUserData="1">
+      <value/>
+     </parameter>
+     <parameter handler="default" label="scene_name" name="scene_name" listType="string" type="list">
+      <value>
+       <list>
+        <entry>objectid</entry>
+       </list>
+      </value>
+     </parameter>
+     <parameter handler="default" label="swatch_type" name="swatch_type" listType="none" type="string" isUserData="1">
+      <value>generic</value>
+     </parameter>
+    </parameters>
+   </vrayplugin>
+  </plugin>
+  <preview>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</preview>
+ </Asset>
+</vrmat>

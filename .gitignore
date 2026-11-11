@@ -1,0 +1,36 @@
+# Only the pipeline's code goes in this repo. Render sets, renders, models and measured
+# scene data live in the shared cloud folder (see README).
+
+# model exports and scene data kept next to the scripts locally
+objects/
+rhino_environments/
+render_package/
+*.3dm
+*.3dmbak
+*.rhl
+*.obj
+*.mtl
+*_scene.json
+
+# render outputs, in case a render set ends up in here
+*.csv
+*.jpg
+*.png
+*.exr
+*.xlsx
+render_logs/
+
+# Grasshopper backups and autosaves
+*.gh_bak
+*.ghx_bak
+*_autosave.gh
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Office lock files, Windows
+~$*
+Thumbs.db
+desktop.ini
