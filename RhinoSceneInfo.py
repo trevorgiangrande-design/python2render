@@ -1,3 +1,4 @@
+#! python 3
 """RhinoSceneInfo.py - measure the open Rhino model and save it as <model>_scene.json.
 
 Run from Rhino 8's ScriptEditor with the model open (and saved). The .json is written next to the
